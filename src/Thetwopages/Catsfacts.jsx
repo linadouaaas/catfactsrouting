@@ -12,7 +12,7 @@ const Catsfacts = () => {
     handleData();}, []);
   return (
     <div>
-        <Link to="/Interactivefacts">go to generate</Link>
+        <Link to="/">go to generate</Link>
       {data ? (
         <div>
         <h1>cat fact that will show when u load the page:</h1> 

@@ -7,10 +7,11 @@ import Catsfacts from './Thetwopages/Catsfacts'
 function App() {
  
   return(
+    
 <Router>
   <Routes>
-  <Route path='/' element={<div>home page</div>}/>
-<Route path='/Interactivefacts' element={<Interactivefacts/>}/>
+
+<Route path='/' element={<Interactivefacts/>}/>
 <Route path='/Catsfacts' element={<Catsfacts/>}/>
 <Route path='*' element={<div>404 error</div>}/>
   </Routes>
